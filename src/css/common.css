@@ -1,0 +1,12 @@
+.container {
+    font-family: 'Montserrat', sans-serif;
+    width: calc(80vw);
+    height: calc(100vh);
+    background-color: #123456;
+    color: white;
+    /* padding: 40px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

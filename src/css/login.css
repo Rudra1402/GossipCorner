@@ -1,0 +1,135 @@
+.login, .signup {
+    height: 90%;
+    width: 85%;
+    overflow-y: auto;
+    /* border: 1px solid white; */
+    border: 1px solid #31577c;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background: #123456;
+    box-shadow:  15px 15px 40px #0f2c49,
+             -15px -15px 40px #153c63;
+}
+
+.logged-in {
+    font-size: 20px;
+}
+
+.logged-in span {
+    color: lightgreen;
+}
+
+.head {
+    font-size: 36px;
+    letter-spacing: 1px;
+    margin: 20px 0;
+}
+
+.box {
+    width: 25vw;
+    margin: 20px;
+}
+
+.su {
+    width: 20vw;
+    margin: 7.5px 20px;
+}
+
+.last {
+    width: calc(100% - 40px);
+}
+
+.box .label {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 5px 0;
+}
+
+.box .label::after {
+    content: ' *';
+    font-size: 22px;
+    color: rgb(177, 54, 54);
+}
+
+.box input {
+    all: unset;
+    width: 100%;
+    border-bottom: 1px solid lightblue;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+.box select {
+    background-color: transparent;
+    color: white;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid lightblue;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+.box select option {
+    color: darkslategrey;
+}
+.box input:focus {
+    color: greenyellow;
+    border-bottom: 1px solid greenyellow;
+}
+.box select:focus {
+    color: lightskyblue;
+    border-bottom: 1px solid greenyellow;
+}
+.box input::placeholder {
+    font-size: 18px;
+}
+
+button {
+    all: unset;
+    padding: 8px 14px;
+    margin: 15px 20px 0 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+button:hover {
+    border: 1px solid greenyellow;
+    color: greenyellow;
+}
+
+.containHr {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login .containHr {
+    width: 45%;
+}
+
+.hr {
+    width: 40%;
+    height: 0.25px;
+    background-color: rgb(255, 136, 0);
+    margin: 18px 5px;
+}
+
+.signup .hr {
+    width: 65%;
+}
+
+.navigate {
+    display: flex;
+}
+
+.navigate a {
+    color: lightblue;
+    margin-left: 7.5px;
+}
